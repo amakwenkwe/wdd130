@@ -1,0 +1,25 @@
+/* styles.css */
+
+nav {
+    background-color: rgb(70, 136, 180);
+    padding: 100px;
+  }
+  nav a {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+  }
+  h1 {
+    color: rgb(76, 58, 175);
+  }
+  img {
+    width: 150px;
+    height: auto;
+    border: 10px solid rgb(79, 122, 240);
+    padding: 20px;
+    box-shadow: 0 0 300px gray;
+  } 
+  p {
+    padding: 10px;
+  }
+  
