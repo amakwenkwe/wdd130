@@ -1,5 +1,5 @@
-
-@import url('https://fonts.google.com/css2?family=roboto&family=montserrat&display=swap');
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=SourceSerif4&family=Dosis&display=swap');
 
 body {
   font-family: var(--paragraph-font);
