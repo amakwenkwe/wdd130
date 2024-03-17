@@ -18,6 +18,12 @@ aside h2 {
   left: 150px;
 }
 
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 body {
   font-family: var(--paragraph-font);
   max-width: 960px;

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=SourceSerif4&family=Dosis&display=swap');
+
+:root {
+    --primary-color: #3826a0;
+    --secondary-color: #000080;
+    --text-color: #343a40;
+    --background-color: #fff;
+    --theme-color: steelblue;
+    }
+
+    .hero img {       
+        display: block;
+        width: 100%;
+        height: auto; 
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-family: var(--heading-font);
+        text-align: center;
+    }
+
+    article{ display: flex;
+        align-content: flex-start;
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+
+ 
