@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Athenkosi Makwenkwe">
+    <meta name="description" content="This is the quiz assignment">
+    <title>W05: Course Home - Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>W05 Quiz Form</h1>
+    </header>
+    <main>
+
+        <form action="./quiz.html">
+            <fieldset>
+                <legend>Contact information</legend>
+                <div class="form-item column2">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname">
+                </div>                
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="q1"><b>1.-</b>Which is the width of this border:</label> 
+                <h4 class="example">"border: 1px  solid  rgb(188, 130, 130);"</h4> 
+                <input  type="number" name="q1" id="q1"  class="inputs" required>
+
+                <label for="q2"><b>2.-</b> Write a valid HTML comment:</label>
+                <input name="q2" id="q2" class="inputs" type="text" required>
+                <div class="form-item">
+                <label for="q3"><b>3.-</b>Explain the difference between inline CSS and external CSS</label>
+                <textarea class="inputs" name="q3" id="q3" rows="4" required></textarea> 
+                </div>
+
+                <div class="form-item column1">
+                <label for="q4"><b>4.-</b>What differentiate HTML from CSS?</label>
+                <select name="browser" id="q4">
+                    <option value="answer1">What differentiate HTML from CSS? HTML Defines the structure and content of a web page and CSS Controls the visual appearance and layout of HTML elements.</option>
+                        <option value="answer2">HTML Controls the visual appearance and layout of CSS elements and CSS Defines the structure and content of a web page.</option>
+                        <option value="answer3">There is no difference</option>
+                </select>
+                </div>
+            </fieldset>
+            <div class="boton">
+                <button type="submit">Submit Quiz</button>
+            </div>
+        </form>
+        
+    </main>
+</body>
+</html>
