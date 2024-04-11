@@ -142,7 +142,7 @@
         grid-template-columns: 1fr 5fr;
         justify-content: space-around;
         align-items: center;
-        border-top: 1.5px solid #333877bb; 
+        border-top: 1.5px solid #ffffff93; 
         background-color: var(--theme-color);
        }
     
